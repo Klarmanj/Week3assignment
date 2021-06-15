@@ -251,4 +251,5 @@ int main()
     fs << setfill('-') << setw(DOTTS_LENGTH) << "Thank you!";
     // Close the text file
       fs.close();
+      cout << "this is a random line" << endl;
 }
